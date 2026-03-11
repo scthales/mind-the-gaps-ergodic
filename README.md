@@ -54,9 +54,9 @@ The robot trajectory is driven to minimize the **ergodic metric**, ensuring time
 
 If you use this code in your research, please cite:
 
-@inproceedings{mindthegaps2026,
-  title={Mind the Gaps: Feedback-Driven Ergodic Coverage in Unknown Environments},
-  author={Thales C. Silva and Nora Ayanian},
-  booktitle={American Control Conference (ACC)},
-  year={2026}
+@inproceedings{mindthegaps2026, 
+title={Mind the Gaps: Feedback-Driven Ergodic Coverage in Unknown Environments},
+author={Thales C. Silva and Nora Ayanian},
+booktitle={American Control Conference (ACC)},
+year={2026}
 }
