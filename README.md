@@ -4,6 +4,7 @@ Official implementation of the paper:
 
 **Mind the Gaps: Feedback-Driven Ergodic Coverage in Unknown Environments**  
 (ACC 2026)
+URL: https://arxiv.org/abs/2605.21719
 
 This repository contains the implementation and simulation environment for **feedback-driven ergodic coverage in unknown environments**, enabling autonomous systems to discover and explore previously unknown regions while maintaining ergodic exploration properties.
 
@@ -54,9 +55,9 @@ The robot trajectory is driven to minimize the **ergodic metric**, ensuring time
 
 If you use this code in your research, please cite:
 
-@inproceedings{mindthegaps2026,\
-title={Mind the Gaps: Feedback-Driven Ergodic Coverage in Unknown Environments},\
-author={Thales C. Silva and Nora Ayanian},\
-booktitle={American Control Conference (ACC)},\
-year={2026}\
+@inproceedings{mindthegaps2026, 
+title={Mind the Gaps: Feedback-Driven Ergodic Coverage in Unknown Environments},
+author={Thales C. Silva and Nora Ayanian},
+booktitle={American Control Conference (ACC)},
+year={2026}
 }

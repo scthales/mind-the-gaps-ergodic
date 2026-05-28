@@ -1,0 +1,311 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Agent	smc/agent.py	/^class Agent:$/;"	c
+AgentEnvironment	smc/probbayes.py	/^class AgentEnvironment(ProbDist):$/;"	c
+AgentTrajectories	smc/agent.py	/^class AgentTrajectories:$/;"	c
+Coverage	smc/coverage.py	/^class Coverage(object):$/;"	c
+DynamicSMC	smc/dynamic_smc.py	/^class DynamicSMC(Coverage):$/;"	c
+Nx	examples/dynamic_smc/dynamic_smc_bimodal.py	/^    Nx = 200$/;"	v
+Ny	examples/dynamic_smc/dynamic_smc_bimodal.py	/^    Ny = 530$/;"	v
+ProbDist	smc/probdist.py	/^class ProbDist:$/;"	c
+StaticSMC	smc/static_smc.py	/^class StaticSMC(Coverage):$/;"	c
+__init__	smc/agent.py	/^    def __init__(self):$/;"	m	class:AgentTrajectories
+__init__	smc/agent.py	/^    def __init__(self, init_x, init_y):$/;"	m	class:Agent
+__init__	smc/coverage.py	/^    def __init__(self, target_distribution):$/;"	m	class:Coverage
+__init__	smc/dynamic_smc.py	/^    def __init__(self, target_distribution):$/;"	m	class:DynamicSMC
+__init__	smc/probbayes.py	/^    def __init__(self, initial_position=(0, 0)):$/;"	m	class:AgentEnvironment
+__init__	smc/probdist.py	/^    def __init__(self, xmin=0.0, xmax=1.0, ymin=0.0, ymax=1.0, Nx=235, Ny=450):$/;"	m	class:ProbDist
+__init__	smc/static_smc.py	/^    def __init__(self, target_distribution):$/;"	m	class:StaticSMC
+_get_c_k	smc/static_smc.py	/^    def _get_c_k(self):$/;"	m	class:StaticSMC
+_update_C_k	smc/dynamic_smc.py	/^    def _update_C_k(self, dt):$/;"	m	class:DynamicSMC
+a_hat	examples/adaptive_sampling_smc/adaptiveSampling.py	/^    a_hat = np.zeros((len(basis_center), 1))$/;"	v
+a_hat	examples/dynamic_smc/adaptiveSampling.py	/^    a_hat = np.zeros((len(basis_center), 1))$/;"	v
+a_real	examples/adaptive_sampling_smc/adaptiveSampling.py	/^    a_real = np.zeros((len(basis_center),1)) $/;"	v
+a_real	examples/dynamic_smc/adaptiveSampling.py	/^    a_real = np.zeros((len(basis_center),1)) $/;"	v
+action1	examples/dynamic_smc/dynamic_smc_moving_target.py	/^        action1 = 'right'$/;"	v
+action2	examples/dynamic_smc/dynamic_smc_moving_target.py	/^        action2 = 'left'$/;"	v
+action_qvalues	examples/dynamic_smc/dynamic_smc_moving_target.py	/^    action_qvalues = {'stay': 0.0, 'up': 2.0, 'down': 2.0, 'left': 0.2, 'right': 5.0}$/;"	v
+action_space	examples/dynamic_smc/dynamic_smc_moving_target.py	/^    action_space = ['stay', 'up', 'down', 'left', 'right']$/;"	v
+adaptaion_law	examples/adaptive_sampling_smc/adaptiveSampling.py	/^def adaptaion_law(x, y, real_func, a_real, a_hat, basis_center, sigma, big_lamb, lamb, time_step):$/;"	f
+adaptaion_law	examples/dynamic_smc/adaptiveSampling.py	/^def adaptaion_law(x, y, real_func, a_real, a_hat, basis_center, sigma, big_lamb, lamb, time_step):$/;"	f
+add_agent	smc/coverage.py	/^    def add_agent(self, new_agent):$/;"	m	class:Coverage
+add_gaussian	smc/probdist.py	/^    def add_gaussian(self, mu, cov, weight):$/;"	m	class:ProbDist
+add_point	smc/agent.py	/^    def add_point(self, x, y):$/;"	m	class:AgentTrajectories
+agent	examples/adaptive_sampling_smc/dynamic_smc_moving_target_barium.py	/^    agent = dynamic_smc.agents[0]$/;"	v
+agent	examples/dynamic_smc/dynamic_smc_moving_target.py	/^        agent = dynamic_smc.agents[0]$/;"	v
+agent	examples/dynamic_smc/dynamic_smc_moving_target.py	/^    agent = dynamic_smc.agents[0]$/;"	v
+agent	examples/dynamic_smc/dynamic_smc_moving_target_barium.py	/^        agent = dynamic_smc.agents[0]$/;"	v
+agent	examples/dynamic_smc/dynamic_smc_moving_target_barium.py	/^    agent = dynamic_smc.agents[0]$/;"	v
+agent2	examples/dynamic_smc/dynamic_smc_moving_target_barium.py	/^        agent2 = dynamic_smc.agents[1]$/;"	v
+agent2	examples/dynamic_smc/dynamic_smc_moving_target_barium.py	/^    agent2 = dynamic_smc.agents[1]$/;"	v
+agent_pos	examples/adaptive_sampling_smc/dynamic_smc_example2.py	/^                    agent_pos = patches.Ellipse((x_curr, y_curr), 4.0, 4.0, facecolor='r', alpha=0.8)$/;"	v
+agent_pos	examples/adaptive_sampling_smc/dynamic_smc_moving_target_barium.py	/^        agent_pos = patches.Ellipse((x_curr, y_curr), 0.1, 0.1, facecolor='b', alpha=0.5)$/;"	v
+agent_pos	examples/dynamic_smc/dynamic_smc_moving_target.py	/^        agent_pos = patches.Ellipse((x_curr, y_curr), 0.01, 0.01, facecolor='b', alpha=0.5)$/;"	v
+agent_pos	examples/dynamic_smc/dynamic_smc_moving_target_barium.py	/^        agent_pos = patches.Ellipse((x_curr, y_curr), 0.1, 0.1, facecolor='b', alpha=0.5)$/;"	v
+animation_folder	examples/adaptive_sampling_smc/dynamic_smc_example2.py	/^        animation_folder = 'dynamic_' + 'comparison' + '_nonconvex'$/;"	v
+animation_folder	examples/adaptive_sampling_smc/dynamic_smc_example2.py	/^        animation_folder = 'dynamic_' + method + '_nonconvex'$/;"	v
+animation_folder	examples/adaptive_sampling_smc/dynamic_smc_moving_target_barium.py	/^    animation_folder = 'dynamic_smc_moving_barium_cloud'$/;"	v
+animation_folder	examples/dynamic_smc/dynamic_smc_bimodal.py	/^    animation_folder = 'dynamic_smc_bimodal'$/;"	v
+animation_folder	examples/dynamic_smc/dynamic_smc_moving_target.py	/^    animation_folder = 'dynamic_smc_moving_target'$/;"	v
+animation_folder	examples/dynamic_smc/dynamic_smc_moving_target_barium.py	/^    animation_folder = 'dynamic_smc_moving_barium_cloud'$/;"	v
+animation_folder	examples/dynamic_smc/dynamic_smc_nonconvex.py	/^    animation_folder = 'dynamic_smc_nonconvex'$/;"	v
+animation_folder	examples/dynamic_smc/dynamic_smc_painting.py	/^    animation_folder = 'dynamic_smc_painting'$/;"	v
+animation_folder	examples/static_smc/static_smc_pointillism.py	/^    animation_folder = 'heisenberg_animation'$/;"	v
+ax	examples/adaptive_sampling_smc/adaptiveSampling.py	/^    ax = fig.add_subplot(121, projection='3d')$/;"	v
+ax	examples/adaptive_sampling_smc/adaptiveSampling.py	/^    ax = fig.add_subplot(122, projection='3d')$/;"	v
+ax	examples/adaptive_sampling_smc/dynamic_smc_example2.py	/^        ax = plt.gca()$/;"	v
+ax	examples/adaptive_sampling_smc/dynamic_smc_moving_target_barium.py	/^        ax = plt.gca()$/;"	v
+ax	examples/dynamic_smc/adaptiveSampling.py	/^    ax = fig.add_subplot(121, projection='3d')$/;"	v
+ax	examples/dynamic_smc/adaptiveSampling.py	/^    ax = fig.add_subplot(122, projection='3d')$/;"	v
+ax	examples/dynamic_smc/dynamic_smc_bimodal.py	/^        ax = plt.gca()$/;"	v
+ax	examples/dynamic_smc/dynamic_smc_moving_target.py	/^        ax = plt.gca()$/;"	v
+ax	examples/dynamic_smc/dynamic_smc_moving_target_barium.py	/^        ax = plt.gca()$/;"	v
+ax	examples/dynamic_smc/dynamic_smc_nonconvex.py	/^        ax = plt.gca()$/;"	v
+ax	examples/dynamic_smc/dynamic_smc_nonconvex.py	/^    ax = plt.gca()$/;"	v
+ax	examples/dynamic_smc/dynamic_smc_painting.py	/^            ax = plt.gca()$/;"	v
+ax	examples/static_smc/static_smc_1000.py	/^    ax = plt.gca()$/;"	v
+ax	examples/static_smc/static_smc_pointillism.py	/^        ax = plt.gca()$/;"	v
+bariumData	examples/adaptive_sampling_smc/dynamic_smc_example2.py	/^    bariumData = np.load(bariumPath + 'processedData.npz')['data']$/;"	v
+bariumPath	examples/adaptive_sampling_smc/dynamic_smc_example2.py	/^    bariumPath = '..\/..\/Data\/'$/;"	v
+basis_center	examples/adaptive_sampling_smc/adaptiveSampling.py	/^    basis_center = generate_centers(xDomain, yDomain, nrow, ncol)$/;"	v
+basis_center	examples/dynamic_smc/adaptiveSampling.py	/^    basis_center = generate_centers(xDomain, yDomain, nrow, ncol)$/;"	v
+bayesian_update	smc/probbayes.py	/^    def bayesian_update(self, action):$/;"	m	class:AgentEnvironment
+big_lamb	examples/adaptive_sampling_smc/adaptiveSampling.py	/^    big_lamb = np.zeros((len(basis_center), len(basis_center)))$/;"	v
+big_lamb	examples/dynamic_smc/adaptiveSampling.py	/^    big_lamb = np.zeros((len(basis_center), len(basis_center)))$/;"	v
+colors	examples/adaptive_sampling_smc/dynamic_smc_example2.py	/^    colors = ['#E69F00', '#56B4E9', '#009E73', '#F0E442', '#0072B2',$/;"	v
+colors	examples/dynamic_smc/dynamic_smc_4agents.py	/^    colors = [[random.random() for _ in range(3)] for _ in range(n_agents)]$/;"	v
+colors	examples/dynamic_smc/dynamic_smc_bimodal.py	/^    colors = [[random.random() for _ in range(3)] for _ in range(n_agents)]$/;"	v
+colors	examples/dynamic_smc/dynamic_smc_nonconvex.py	/^    colors = [[random.random() for _ in range(3)] for _ in range(n_agents)]$/;"	v
+comparison	examples/adaptive_sampling_smc/dynamic_smc_example2.py	/^    comparison = True # if True, will compare with static SMC$/;"	v
+compute_Bjvec_from_Sk	smc/coverage.py	/^    def compute_Bjvec_from_Sk(self, S_k, agent, rho=0.5):$/;"	m	class:Coverage
+compute_gaussian	examples/adaptive_sampling_smc/dynamic_smc_example2.py	/^def compute_gaussian(mu, mean, cov, weight, Nx, Ny, xmin, xmax, ymin, ymax, dx, dy):$/;"	f
+compute_mu_ground_truth_k	smc/probdist.py	/^    def compute_mu_ground_truth_k(self):$/;"	m	class:ProbDist
+compute_mu_k	smc/probdist.py	/^    def compute_mu_k(self):$/;"	m	class:ProbDist
+compute_nmse	examples/adaptive_sampling_smc/dynamic_smc_example2.py	/^def compute_nmse(f_hat, ground_thruth):$/;"	f
+cov	examples/dynamic_smc/dynamic_smc_bimodal.py	/^    cov = np.array([[sig_x * sig_x, 0], [0, sig_y * sig_y]])$/;"	v
+cov	examples/static_smc/static_smc_gaussian.py	/^    cov = np.array([[sig_x*sig_x, 0], [0, sig_y*sig_y]])$/;"	v
+coverage_error_all	examples/adaptive_sampling_smc/dynamic_smc_example2.py	/^    coverage_error_all = {"Ours": [], "Non-adaptive": []}$/;"	v
+coverage_error_ground_thruth	examples/adaptive_sampling_smc/dynamic_smc_example2.py	/^    coverage_error_ground_thruth = {"Ours": [], "Non-adaptive": []}$/;"	v
+createMap	smc/agent.py	/^    def createMap(self, x_sample, y_sample, newData, dataTime):$/;"	m	class:Agent
+curr_rationality	examples/dynamic_smc/dynamic_smc_moving_target.py	/^    curr_rationality = target1.get_rationality_value()$/;"	v
+curr_rationality1	examples/dynamic_smc/dynamic_smc_moving_target.py	/^        curr_rationality1 = target1.get_rationality_value()$/;"	v
+curr_rationality2	examples/dynamic_smc/dynamic_smc_moving_target.py	/^        curr_rationality2 = target2.get_rationality_value()$/;"	v
+current_states	examples/dynamic_smc/dynamic_smc_bimodal.py	/^        current_states = []$/;"	v
+current_states	examples/static_smc/static_smc_pointillism.py	/^        current_states = []$/;"	v
+data_weigh	examples/adaptive_sampling_smc/adaptiveSampling.py	/^def data_weigh(t):$/;"	f
+data_weigh	examples/dynamic_smc/adaptiveSampling.py	/^def data_weigh(t):$/;"	f
+debug	examples/adaptive_sampling_smc/dynamic_smc_example2.py	/^    debug = False$/;"	v
+debug	examples/adaptive_sampling_smc/dynamic_smc_moving_target_barium.py	/^    debug = False$/;"	v
+des_data	examples/adaptive_sampling_smc/dynamic_smc_example2.py	/^        des_data = 0$/;"	v
+dt	examples/adaptive_sampling_smc/dynamic_smc_example2.py	/^    dt = 1 $/;"	v
+dynamic_smc	examples/adaptive_sampling_smc/dynamic_smc_example2.py	/^        dynamic_smc = DynamicSMC(prob_dist)$/;"	v
+dynamic_smc	examples/adaptive_sampling_smc/dynamic_smc_moving_target_barium.py	/^    dynamic_smc = DynamicSMC(prob_dist)$/;"	v
+dynamic_smc	examples/dynamic_smc/dynamic_smc_4agents.py	/^    dynamic_smc = DynamicSMC(prob_dist)$/;"	v
+dynamic_smc	examples/dynamic_smc/dynamic_smc_bimodal.py	/^    dynamic_smc = DynamicSMC(prob_dist)$/;"	v
+dynamic_smc	examples/dynamic_smc/dynamic_smc_moving_target.py	/^    dynamic_smc = DynamicSMC(prob_dist)$/;"	v
+dynamic_smc	examples/dynamic_smc/dynamic_smc_moving_target_barium.py	/^    dynamic_smc = DynamicSMC(prob_dist)$/;"	v
+dynamic_smc	examples/dynamic_smc/dynamic_smc_nonconvex.py	/^    dynamic_smc = DynamicSMC(prob_dist)$/;"	v
+dynamic_smc	examples/dynamic_smc/dynamic_smc_painting.py	/^    dynamic_smc = DynamicSMC(prob_dist)$/;"	v
+ellipse	examples/static_smc/static_smc_1000.py	/^    ellipse = patches.Ellipse((0.7, 0.3), 0.3, 0.1, linewidth=1, facecolor='r', alpha=0.5)$/;"	v
+f_hat	examples/adaptive_sampling_smc/adaptiveSampling.py	/^    f_hat = func_hat(xx, yy, a_hat, basis_center, 0.1)$/;"	v
+f_hat	examples/adaptive_sampling_smc/dynamic_smc_example2.py	/^                    f_hat = AS.func_hat(xx, yy, agent.a_hat, agent.basis_center, agent.sigma)$/;"	v
+f_hat	examples/adaptive_sampling_smc/dynamic_smc_moving_target_barium.py	/^            f_hat = AS.func_hat(xx, yy, agent.a_hat, agent.basis_center, 0.1)$/;"	v
+f_hat	examples/dynamic_smc/adaptiveSampling.py	/^    f_hat = func_hat(xx, yy, a_hat, basis_center, 0.1)$/;"	v
+fig	examples/adaptive_sampling_smc/adaptiveSampling.py	/^    fig = plt.figure()$/;"	v
+fig	examples/dynamic_smc/adaptiveSampling.py	/^    fig = plt.figure()$/;"	v
+final_states	examples/static_smc/static_smc_1000.py	/^    final_states = []$/;"	v
+final_states	examples/static_smc/static_smc_3x3.py	/^    final_states = []$/;"	v
+final_states	examples/static_smc/static_smc_curve.py	/^    final_states = []$/;"	v
+final_states	examples/static_smc/static_smc_gaussian.py	/^    final_states = []$/;"	v
+first_run_trajectories	examples/dynamic_smc/dynamic_smc_4agents.py	/^    first_run_trajectories = dynamic_smc.time_steps(500, 0.01, return_trajectories=True)$/;"	v
+func_hat	examples/adaptive_sampling_smc/adaptiveSampling.py	/^def func_hat(x, y, a_hat, basis_center, sigma):$/;"	f
+func_hat	examples/dynamic_smc/adaptiveSampling.py	/^def func_hat(x, y, a_hat, basis_center, sigma):$/;"	f
+gaussian_basis	examples/adaptive_sampling_smc/adaptiveSampling.py	/^def gaussian_basis(x, y, mu, sigma):$/;"	f
+gaussian_basis	examples/dynamic_smc/adaptiveSampling.py	/^def gaussian_basis(x, y, mu, sigma):$/;"	f
+generate_centers	examples/adaptive_sampling_smc/adaptiveSampling.py	/^def generate_centers(xDomain, yDomain, nrow, ncol):$/;"	f
+generate_centers	examples/dynamic_smc/adaptiveSampling.py	/^def generate_centers(xDomain, yDomain, nrow, ncol):$/;"	f
+get_action_probabilities	smc/probbayes.py	/^    def get_action_probabilities(self, curr_rationality):$/;"	m	class:AgentEnvironment
+get_conditional_likelihoods	smc/probbayes.py	/^    def get_conditional_likelihoods(self, actions, action_qvalues, rationality_values):$/;"	m	class:AgentEnvironment
+get_measurement	smc/agent.py	/^    def get_measurement(self, x, y):$/;"	m	class:Agent
+get_mu_ground_truth_k	smc/probdist.py	/^    def get_mu_ground_truth_k(self):$/;"	m	class:ProbDist
+get_mu_k	smc/probdist.py	/^    def get_mu_k(self):$/;"	m	class:ProbDist
+get_prediction_probabilities	smc/probbayes.py	/^    def get_prediction_probabilities(self):$/;"	m	class:AgentEnvironment
+get_probabilities	smc/probbayes.py	/^    def get_probabilities(self, current_position):$/;"	m	class:AgentEnvironment
+get_rationality_value	smc/probbayes.py	/^    def get_rationality_value(self):$/;"	m	class:AgentEnvironment
+grid_data	examples/dynamic_smc/dynamic_smc_moving_target.py	/^        grid_data = grid_target1 + grid_target2$/;"	v
+grid_ones	examples/adaptive_sampling_smc/dynamic_smc_example2.py	/^                grid_ones = np.ones(bariumData[0].shape)$/;"	v
+grid_target1	examples/dynamic_smc/dynamic_smc_moving_target.py	/^        grid_target1 = target1.get_prediction_probabilities()$/;"	v
+grid_target2	examples/dynamic_smc/dynamic_smc_moving_target.py	/^        grid_target2 = target2.get_prediction_probabilities()$/;"	v
+hypocycloid_curve	examples/static_smc/static_smc_curve.py	/^def hypocycloid_curve(theta, r=0.2, k=5):$/;"	f
+image	examples/dynamic_smc/dynamic_smc_painting.py	/^    image = imread('lady_painting.jpg')$/;"	v
+image	examples/static_smc/static_smc_pointillism.py	/^    image = imread('heisenberg.jpg')$/;"	v
+image_dens	examples/dynamic_smc/dynamic_smc_painting.py	/^    image_dens = 255.0 - image.T$/;"	v
+image_dens	examples/dynamic_smc/dynamic_smc_painting.py	/^    image_dens = np.fliplr(image_dens)$/;"	v
+image_dens	examples/static_smc/static_smc_pointillism.py	/^    image_dens = 255.0 - image.T$/;"	v
+image_dens	examples/static_smc/static_smc_pointillism.py	/^    image_dens = np.fliplr(image_dens)$/;"	v
+initial_states	examples/static_smc/static_smc_1000.py	/^    initial_states = []$/;"	v
+initial_states	examples/static_smc/static_smc_3x3.py	/^    initial_states = []$/;"	v
+initial_states	examples/static_smc/static_smc_curve.py	/^    initial_states = []$/;"	v
+initial_states	examples/static_smc/static_smc_gaussian.py	/^    initial_states = []$/;"	v
+initialize_adaptive_sampling	smc/agent.py	/^    def initialize_adaptive_sampling(self, num_basis):$/;"	m	class:Agent
+inner_circle	examples/dynamic_smc/dynamic_smc_nonconvex.py	/^    inner_circle = patches.Ellipse((0.0, 0.0), 2 * 60.0, 2 * 60.0, linewidth=1, facecolor='w', edgecolor='w', alpha=1.0)$/;"	v
+lamb	examples/adaptive_sampling_smc/adaptiveSampling.py	/^    lamb = np.zeros((len(basis_center), 1))$/;"	v
+lamb	examples/dynamic_smc/adaptiveSampling.py	/^    lamb = np.zeros((len(basis_center), 1))$/;"	v
+loadBariumCloud	examples/adaptive_sampling_smc/adaptiveSampling.py	/^def loadBariumCloud(sensorPeriod):$/;"	f
+loadBariumCloud	examples/adaptive_sampling_smc/dynamic_smc_example2.py	/^def loadBariumCloud(sensorPeriod):$/;"	f
+loadBariumCloud	examples/adaptive_sampling_smc/dynamic_smc_moving_target_barium.py	/^def loadBariumCloud(sensorPeriod):$/;"	f
+loadBariumCloud	examples/dynamic_smc/adaptiveSampling.py	/^def loadBariumCloud(sensorPeriod):$/;"	f
+loadBariumCloud	examples/dynamic_smc/dynamic_smc_moving_target_barium.py	/^def loadBariumCloud(sensorPeriod):$/;"	f
+load_gaussian_bimodal	examples/adaptive_sampling_smc/dynamic_smc_example2.py	/^def load_gaussian_bimodal(sensorPeriod,weight,xmin,xmax,ymin,ymax):$/;"	f
+map_nmse_error_all	examples/adaptive_sampling_smc/dynamic_smc_example2.py	/^    map_nmse_error_all = {"Ours": [], "Non-adaptive": []}$/;"	v
+meastime	examples/adaptive_sampling_smc/dynamic_smc_example2.py	/^                meastime = agent.currentTime$/;"	v
+method	examples/adaptive_sampling_smc/dynamic_smc_example2.py	/^        method = methods[0] # $/;"	v
+method	examples/adaptive_sampling_smc/dynamic_smc_example2.py	/^    method = "Ours" #$/;"	v
+methods	examples/adaptive_sampling_smc/dynamic_smc_example2.py	/^        methods = ["Ours", "Non-adaptive"]$/;"	v
+move_particle	smc/probbayes.py	/^    def move_particle(self, action):$/;"	m	class:AgentEnvironment
+mu	examples/dynamic_smc/dynamic_smc_bimodal.py	/^    mu = np.array([[mu_x], [mu_y]])$/;"	v
+mu	examples/static_smc/static_smc_gaussian.py	/^    mu = np.array([[mu_x], [mu_y]])$/;"	v
+n_agents	examples/adaptive_sampling_smc/dynamic_smc_example2.py	/^    n_agents = 4$/;"	v
+n_agents	examples/dynamic_smc/dynamic_smc_4agents.py	/^    n_agents = 10$/;"	v
+n_agents	examples/dynamic_smc/dynamic_smc_bimodal.py	/^    n_agents = 2$/;"	v
+n_agents	examples/dynamic_smc/dynamic_smc_nonconvex.py	/^    n_agents = 5$/;"	v
+n_agents	examples/dynamic_smc/dynamic_smc_painting.py	/^    n_agents = 20$/;"	v
+n_agents	examples/static_smc/static_smc_1000.py	/^    n_agents = 1000$/;"	v
+n_agents	examples/static_smc/static_smc_3x3.py	/^    n_agents = 9$/;"	v
+n_agents	examples/static_smc/static_smc_curve.py	/^    n_agents = 50$/;"	v
+n_agents	examples/static_smc/static_smc_gaussian.py	/^    n_agents = 200$/;"	v
+n_agents	examples/static_smc/static_smc_pointillism.py	/^    n_agents = 2000$/;"	v
+n_steps	examples/adaptive_sampling_smc/dynamic_smc_example2.py	/^    n_steps = 1$/;"	v
+n_time_steps	examples/dynamic_smc/dynamic_smc_painting.py	/^    n_time_steps = 10000$/;"	v
+ncol	examples/adaptive_sampling_smc/adaptiveSampling.py	/^    ncol = 8 # number of basis functions in y$/;"	v
+ncol	examples/dynamic_smc/adaptiveSampling.py	/^    ncol = 8 # number of basis functions in y$/;"	v
+newData	examples/adaptive_sampling_smc/dynamic_smc_example2.py	/^            newData = agent.mappingGroundTruth[agent.currentTime][y_sample, x_sample].copy()$/;"	v
+normalize_mu	smc/probdist.py	/^    def normalize_mu(self):$/;"	m	class:ProbDist
+nrow	examples/adaptive_sampling_smc/adaptiveSampling.py	/^    nrow = 8 # number of basis functions in x$/;"	v
+nrow	examples/dynamic_smc/adaptiveSampling.py	/^    nrow = 8 # number of basis functions in x$/;"	v
+out_fig_name	examples/adaptive_sampling_smc/dynamic_smc_example2.py	/^                out_fig_name = os.path.join(animation_folder,$/;"	v
+out_fig_name	examples/adaptive_sampling_smc/dynamic_smc_moving_target_barium.py	/^        out_fig_name = os.path.join(animation_folder,$/;"	v
+out_fig_name	examples/dynamic_smc/dynamic_smc_bimodal.py	/^        out_fig_name = os.path.join(animation_folder,$/;"	v
+out_fig_name	examples/dynamic_smc/dynamic_smc_moving_target.py	/^        out_fig_name = os.path.join(animation_folder,$/;"	v
+out_fig_name	examples/dynamic_smc/dynamic_smc_moving_target_barium.py	/^        out_fig_name = os.path.join(animation_folder,$/;"	v
+out_fig_name	examples/dynamic_smc/dynamic_smc_nonconvex.py	/^        out_fig_name = os.path.join(animation_folder,$/;"	v
+out_fig_name	examples/dynamic_smc/dynamic_smc_painting.py	/^            out_fig_name = os.path.join(animation_folder,$/;"	v
+out_fig_name	examples/static_smc/static_smc_pointillism.py	/^        out_fig_name = os.path.join(animation_folder,$/;"	v
+outer_circle	examples/dynamic_smc/dynamic_smc_nonconvex.py	/^    outer_circle = patches.Ellipse((0.0, 0.0), 2 * 75.0, 2 * 75.0, linewidth=1, facecolor='b', alpha=0.2)$/;"	v
+paint_dens	examples/dynamic_smc/dynamic_smc_painting.py	/^        paint_dens = update_paint_dens(paint_dens, prob_dist, x_curr, y_curr, paint_rate)$/;"	v
+paint_dens	examples/dynamic_smc/dynamic_smc_painting.py	/^    paint_dens = np.zeros(image_dens.shape)$/;"	v
+paint_rate	examples/dynamic_smc/dynamic_smc_painting.py	/^    paint_rate = sum(sum(image_dens)) \/ float(n_time_steps * n_agents)$/;"	v
+pdf_multivariate_gauss	examples/adaptive_sampling_smc/dynamic_smc_example2.py	/^def pdf_multivariate_gauss(x, mu, cov):$/;"	f
+pdf_multivariate_gauss	smc/probdist.py	/^def pdf_multivariate_gauss(x, mu, cov):$/;"	f
+plotDye	examples/adaptive_sampling_smc/adaptiveSampling.py	/^def plotDye(image1, image2, image3):$/;"	f
+plotDye	examples/adaptive_sampling_smc/dynamic_smc_example2.py	/^def plotDye(image1, image2, image3):$/;"	f
+plotDye	examples/adaptive_sampling_smc/dynamic_smc_moving_target_barium.py	/^def plotDye(image1, image2, image3):$/;"	f
+plotDye	examples/dynamic_smc/adaptiveSampling.py	/^def plotDye(image1, image2, image3):$/;"	f
+plotDye	examples/dynamic_smc/dynamic_smc_moving_target_barium.py	/^def plotDye(image1, image2, image3):$/;"	f
+plot_agents	smc/coverage.py	/^    def plot_agents(self):$/;"	m	class:Coverage
+plot_density	examples/dynamic_smc/plot_utils.py	/^def plot_density(prob_dist):$/;"	f
+plot_density	examples/static_smc/static_smc_gaussian.py	/^def plot_density(prob_dist):$/;"	f
+plot_environment	smc/probbayes.py	/^    def plot_environment(self):$/;"	m	class:AgentEnvironment
+plot_trajectories	examples/dynamic_smc/plot_utils.py	/^def plot_trajectories(trajectories, colors, plot_end=True):$/;"	f
+points_on_curve	examples/static_smc/static_smc_curve.py	/^    points_on_curve = [hypocycloid_curve(th) for th in np.arange(0, 2*pi, 0.01)]$/;"	v
+prob_dist	examples/adaptive_sampling_smc/dynamic_smc_example2.py	/^        prob_dist = ProbDist(xmin=xmin, xmax=xmax, ymin=ymin, ymax=ymax, Nx=Nx, Ny=Ny)$/;"	v
+prob_dist	examples/adaptive_sampling_smc/dynamic_smc_moving_target_barium.py	/^    prob_dist = ProbDist()$/;"	v
+prob_dist	examples/dynamic_smc/dynamic_smc_4agents.py	/^    prob_dist = ProbDist(xmin=0.0, xmax=1.0, ymin=0.0, ymax=1.0)$/;"	v
+prob_dist	examples/dynamic_smc/dynamic_smc_bimodal.py	/^    prob_dist = ProbDist(xmin=xmin, xmax=xmax, ymin=ymin, ymax=ymax, Nx=Nx, Ny=Ny)$/;"	v
+prob_dist	examples/dynamic_smc/dynamic_smc_moving_target.py	/^    prob_dist = ProbDist()$/;"	v
+prob_dist	examples/dynamic_smc/dynamic_smc_moving_target_barium.py	/^    prob_dist = ProbDist()$/;"	v
+prob_dist	examples/dynamic_smc/dynamic_smc_nonconvex.py	/^    prob_dist = ProbDist(xmin=xmin, xmax=xmax, ymin=ymin, ymax=ymax, Nx=100, Ny=100)$/;"	v
+prob_dist	examples/dynamic_smc/dynamic_smc_painting.py	/^    prob_dist = ProbDist(xmin=xmin, xmax=xmax, ymin=ymin, ymax=ymax, Nx=xmax, Ny=ymax)$/;"	v
+prob_dist	examples/static_smc/static_smc_1000.py	/^    prob_dist = ProbDist(xmin=0.0, xmax=1.0, ymin=0.0, ymax=1.0)$/;"	v
+prob_dist	examples/static_smc/static_smc_3x3.py	/^    prob_dist = ProbDist(xmin=0.0, xmax=1.0, ymin=0.0, ymax=1.0)$/;"	v
+prob_dist	examples/static_smc/static_smc_curve.py	/^    prob_dist = ProbDist(xmin=xmin, xmax=xmax, ymin=ymin, ymax=ymax)$/;"	v
+prob_dist	examples/static_smc/static_smc_gaussian.py	/^    prob_dist = ProbDist(xmin=xmin, xmax=xmax, ymin=ymin, ymax=ymax, Nx=100, Ny=100)$/;"	v
+prob_dist	examples/static_smc/static_smc_pointillism.py	/^    prob_dist = ProbDist(xmin=xmin, xmax=xmax, ymin=ymin, ymax=ymax, Nx=xmax, Ny=ymax)$/;"	v
+random_state	examples/adaptive_sampling_smc/dynamic_smc_example2.py	/^            random_state = (xmin + (xmax - xmin) * random.random(),$/;"	v
+random_state	examples/dynamic_smc/dynamic_smc_bimodal.py	/^        random_state = (xmin + (xmax - xmin) * random.random(),$/;"	v
+random_state	examples/dynamic_smc/dynamic_smc_nonconvex.py	/^        random_state = (xmin + (xmax - xmin) * random.random(),$/;"	v
+random_state	examples/static_smc/static_smc_1000.py	/^        random_state = (random.random(), random.random())$/;"	v
+random_state	examples/static_smc/static_smc_3x3.py	/^        random_state = (random.random(), random.random())$/;"	v
+random_state	examples/static_smc/static_smc_curve.py	/^        random_state = (xmin + (xmax-xmin) * random.random(),$/;"	v
+random_state	examples/static_smc/static_smc_gaussian.py	/^        random_state = (xmin + (xmax-xmin) * random.random(),$/;"	v
+random_state	examples/static_smc/static_smc_pointillism.py	/^        random_state = (random.random() * xmax, random.random() * ymax)$/;"	v
+rationality_values	examples/dynamic_smc/dynamic_smc_moving_target.py	/^    rationality_values = [0.1 , 0.3, 0.5 , 0.7, 0.9]$/;"	v
+real_func	examples/adaptive_sampling_smc/adaptiveSampling.py	/^    real_func = bariumData[90]$/;"	v
+real_func	examples/dynamic_smc/adaptiveSampling.py	/^    real_func = bariumData[90]$/;"	v
+rect	examples/static_smc/static_smc_1000.py	/^    rect = patches.Rectangle((0.2, 0.7), 0.3, 0.1, linewidth=1, facecolor='b', alpha=0.5)$/;"	v
+reflect_agent	smc/coverage.py	/^    def reflect_agent(self, agent):$/;"	m	class:Coverage
+second_run_trajectories	examples/dynamic_smc/dynamic_smc_4agents.py	/^    second_run_trajectories = dynamic_smc.time_steps(500, 0.01, return_trajectories=True)$/;"	v
+sensorPeriod	examples/adaptive_sampling_smc/adaptiveSampling.py	/^    sensorPeriod = 1$/;"	v
+sensorPeriod	examples/adaptive_sampling_smc/dynamic_smc_example2.py	/^    sensorPeriod = 1 $/;"	v
+sensorPeriod	examples/adaptive_sampling_smc/dynamic_smc_moving_target_barium.py	/^    sensorPeriod = 1 $/;"	v
+sensorPeriod	examples/dynamic_smc/adaptiveSampling.py	/^    sensorPeriod = 1$/;"	v
+sensorPeriod	examples/dynamic_smc/dynamic_smc_moving_target_barium.py	/^    sensorPeriod = 1$/;"	v
+seq_actions	examples/dynamic_smc/dynamic_smc_moving_target.py	/^    seq_actions = ['up', 'right', 'right', 'right', 'down', 'down', 'down', 'left', 'left', 'left', 'right', 'right', 'right' ]$/;"	v
+set_prob_dist_from_array	smc/probdist.py	/^    def set_prob_dist_from_array(self, array):$/;"	m	class:ProbDist
+set_prob_dist_ground_thruth	smc/probdist.py	/^    def set_prob_dist_ground_thruth(self, array):$/;"	m	class:ProbDist
+set_prob_dist_on_curve	smc/probdist.py	/^    def set_prob_dist_on_curve(self, parametric_curve, parameter_range):$/;"	m	class:ProbDist
+set_value_in_circle	smc/probdist.py	/^    def set_value_in_circle(self, xc, yc, radius, value):$/;"	m	class:ProbDist
+set_value_in_ellipse	smc/probdist.py	/^    def set_value_in_ellipse(self, xc, yc, a, b, value):$/;"	m	class:ProbDist
+set_value_in_rect	smc/probdist.py	/^    def set_value_in_rect(self, rect_xmin, rect_xmax, rect_ymin, rect_ymax, value):$/;"	m	class:ProbDist
+set_zero	smc/probdist.py	/^    def set_zero(self):$/;"	m	class:ProbDist
+sim_time	examples/adaptive_sampling_smc/dynamic_smc_example2.py	/^    sim_time = 5 $/;"	v
+simulation_time	examples/adaptive_sampling_smc/dynamic_smc_moving_target_barium.py	/^    simulation_time = 400$/;"	v
+square	examples/dynamic_smc/dynamic_smc_nonconvex.py	/^    square = patches.Rectangle((-20.0, -20.0), 40.0, 40.0, linewidth=1, facecolor='b', alpha=0.2)$/;"	v
+start	examples/adaptive_sampling_smc/dynamic_smc_example2.py	/^                    start = time.time()$/;"	v
+start	examples/adaptive_sampling_smc/dynamic_smc_moving_target_barium.py	/^            start = time.time()$/;"	v
+static_smc	examples/static_smc/static_smc_1000.py	/^    static_smc = StaticSMC(prob_dist)$/;"	v
+static_smc	examples/static_smc/static_smc_3x3.py	/^    static_smc = StaticSMC(prob_dist)$/;"	v
+static_smc	examples/static_smc/static_smc_curve.py	/^    static_smc = StaticSMC(prob_dist)$/;"	v
+static_smc	examples/static_smc/static_smc_gaussian.py	/^    static_smc = StaticSMC(prob_dist)$/;"	v
+static_smc	examples/static_smc/static_smc_pointillism.py	/^    static_smc = StaticSMC(prob_dist)$/;"	v
+target1	examples/dynamic_smc/dynamic_smc_moving_target.py	/^    target1 = AgentEnvironment(initial_position=(9, 9))$/;"	v
+target2	examples/dynamic_smc/dynamic_smc_moving_target.py	/^    target2 = AgentEnvironment(initial_position=(9, 9))$/;"	v
+time	examples/adaptive_sampling_smc/adaptiveSampling.py	/^    time = 50$/;"	v
+time	examples/dynamic_smc/adaptiveSampling.py	/^    time = 50$/;"	v
+time_steps	smc/dynamic_smc.py	/^    def time_steps(self, n_steps, dt, return_trajectories=False):$/;"	m	class:DynamicSMC
+time_steps	smc/static_smc.py	/^    def time_steps(self, n_steps, dt):$/;"	m	class:StaticSMC
+underlying_function	examples/adaptive_sampling_smc/adaptiveSampling.py	/^def underlying_function(x, y):$/;"	f
+underlying_function	examples/dynamic_smc/adaptiveSampling.py	/^def underlying_function(x, y):$/;"	f
+update_paint_dens	examples/dynamic_smc/dynamic_smc_painting.py	/^def update_paint_dens(paint_dens, prob_dist, x_curr, y_curr, paint_rate):$/;"	f
+visualizeMap	smc/agent.py	/^    def visualizeMap(self, xmin, xmax, ymin, ymax, timevis, method, animation_folder):$/;"	m	class:Agent
+weight	examples/adaptive_sampling_smc/dynamic_smc_example2.py	/^    weight = 20.0$/;"	v
+x	examples/adaptive_sampling_smc/adaptiveSampling.py	/^    x = np.linspace(0, 449, 450, dtype=int)$/;"	v
+x	examples/dynamic_smc/adaptiveSampling.py	/^    x = np.linspace(0, 449, 450, dtype=int)$/;"	v
+xDomain	examples/adaptive_sampling_smc/adaptiveSampling.py	/^    xDomain = 1$/;"	v
+xDomain	examples/dynamic_smc/adaptiveSampling.py	/^    xDomain = 1$/;"	v
+x_app	examples/adaptive_sampling_smc/adaptiveSampling.py	/^    x_app = np.linspace(0, xDomain, 450) # x of approximated function$/;"	v
+x_app	examples/adaptive_sampling_smc/dynamic_smc_example2.py	/^    x_app = np.linspace(0, 1, 450) # x of approximated function$/;"	v
+x_app	examples/adaptive_sampling_smc/dynamic_smc_moving_target_barium.py	/^    x_app = np.linspace(0, 1, 450) # x of approximated function$/;"	v
+x_app	examples/dynamic_smc/adaptiveSampling.py	/^    x_app = np.linspace(0, xDomain, 450) # x of approximated function$/;"	v
+x_curr	examples/adaptive_sampling_smc/dynamic_smc_example2.py	/^                    x_curr = int((agent.x - xmin) \/ (xmax - xmin) * (agent.mappingGroundTruth[0].shape[1] - 1))$/;"	v
+x_curr	examples/dynamic_smc/dynamic_smc_painting.py	/^        x_curr = []$/;"	v
+x_sample	examples/adaptive_sampling_smc/adaptiveSampling.py	/^        x_sample = np.random.choice(x)$/;"	v
+x_sample	examples/adaptive_sampling_smc/dynamic_smc_example2.py	/^                x_sample = int((agent.x - xmin) \/ (xmax - xmin) * (agent.mappingGroundTruth[0].shape[1] - 1))$/;"	v
+x_sample	examples/adaptive_sampling_smc/dynamic_smc_example2.py	/^            x_sample = random.choice(range(450))$/;"	v
+x_sample	examples/adaptive_sampling_smc/dynamic_smc_moving_target_barium.py	/^            x_sample = random.choice(range(450))$/;"	v
+x_sample	examples/adaptive_sampling_smc/dynamic_smc_moving_target_barium.py	/^        x_sample = agent.x$/;"	v
+x_sample	examples/adaptive_sampling_smc/dynamic_smc_moving_target_barium.py	/^        x_sample = int(x_sample*bariumData[0].shape[1])$/;"	v
+x_sample	examples/dynamic_smc/adaptiveSampling.py	/^        x_sample = np.random.choice(x)$/;"	v
+xs_on_curve	examples/static_smc/static_smc_curve.py	/^    xs_on_curve = [x[0] for x in points_on_curve]$/;"	v
+y	examples/adaptive_sampling_smc/adaptiveSampling.py	/^    y = np.linspace(0, 234, 235, dtype=int)$/;"	v
+y	examples/dynamic_smc/adaptiveSampling.py	/^    y = np.linspace(0, 234, 235, dtype=int)$/;"	v
+yDomain	examples/adaptive_sampling_smc/adaptiveSampling.py	/^    yDomain = 1$/;"	v
+yDomain	examples/dynamic_smc/adaptiveSampling.py	/^    yDomain = 1$/;"	v
+y_app	examples/adaptive_sampling_smc/adaptiveSampling.py	/^    y_app = np.linspace(0, yDomain, 235) # y of approximated function$/;"	v
+y_app	examples/adaptive_sampling_smc/dynamic_smc_example2.py	/^    y_app = np.linspace(0, 1, 235) # y of approximated function$/;"	v
+y_app	examples/adaptive_sampling_smc/dynamic_smc_moving_target_barium.py	/^    y_app = np.linspace(0, 1, 235) # y of approximated function$/;"	v
+y_app	examples/dynamic_smc/adaptiveSampling.py	/^    y_app = np.linspace(0, yDomain, 235) # y of approximated function$/;"	v
+y_curr	examples/adaptive_sampling_smc/dynamic_smc_example2.py	/^                    y_curr = int((agent.y - ymin) \/ (ymax - ymin) * (agent.mappingGroundTruth[0].shape[0] - 1))$/;"	v
+y_curr	examples/dynamic_smc/dynamic_smc_painting.py	/^        y_curr = []$/;"	v
+y_sample	examples/adaptive_sampling_smc/adaptiveSampling.py	/^        y_sample = np.random.choice(y)$/;"	v
+y_sample	examples/adaptive_sampling_smc/dynamic_smc_example2.py	/^                y_sample = int((agent.y - ymin) \/ (ymax - ymin) * (agent.mappingGroundTruth[0].shape[0] - 1))$/;"	v
+y_sample	examples/adaptive_sampling_smc/dynamic_smc_example2.py	/^            y_sample = random.choice(range(235))$/;"	v
+y_sample	examples/adaptive_sampling_smc/dynamic_smc_moving_target_barium.py	/^            y_sample = random.choice(range(235))$/;"	v
+y_sample	examples/adaptive_sampling_smc/dynamic_smc_moving_target_barium.py	/^        y_sample = agent.y$/;"	v
+y_sample	examples/adaptive_sampling_smc/dynamic_smc_moving_target_barium.py	/^        y_sample = int(y_sample*bariumData[0].shape[0])$/;"	v
+y_sample	examples/dynamic_smc/adaptiveSampling.py	/^        y_sample = np.random.choice(y)$/;"	v
+ys_on_curve	examples/static_smc/static_smc_curve.py	/^    ys_on_curve = [x[1] for x in points_on_curve]$/;"	v
